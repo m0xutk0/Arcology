@@ -32,6 +32,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: iOS
+          versioning: None
 
       # Облачный Мак компилирует проект в сырой .app и упаковывает в .ipa для Sideloadly
       - name: Compile Xcode to Unsigned IPA
