@@ -35,17 +35,19 @@ jobs:
       # Облачный Мак компилирует проект в сырой .app и упаковывает в .ipa для Sideloadly
       - name: Compile Xcode to Unsigned IPA
         run: |
-          # Заходим в правильную подпапку, которую создал GameCI
+          # Заходим в папку с Xcode проектом
           cd build/iOS/iOS
           
-          # Собираем бинарник игры без жесткой привязки к сертификатам Apple
+          # Собираем бинарник игры
           xcodebuild -project Unity-iPhone.xcodeproj -scheme Unity-iPhone -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO OBJROOT=$PWD/build SYMROOT=$PWD/build
           
-          # Создаем правильную структуру папки Payload для создания .ipa
+          # Создаем папку Payload для архивации
           mkdir -p Payload
-          cp -r build/Release-iphoneos/Unity-iPhone.app Payload/
           
-          # Упаковываем и перекидываем готовый ipa на 3 уровня вверх (в корень репозитория)
+          # Копируем твой настоящий собранный файл Arcologymini.app
+          cp -r build/Release-iphoneos/Arcologymini.app Payload/
+          
+          # Упаковываем всё в .ipa и закидываем в корень репозитория
           zip -r ../../../MyGame.ipa Payload
 
       # Выкладываем готовый файл на страницу GitHub Actions для скачивания
