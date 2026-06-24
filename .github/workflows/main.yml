@@ -1,7 +1,8 @@
 name: Build iOS Game 🍏
 
 on:
-  workflow_dispatch: # Позволяет запускать сборку вручную одной кнопкой
+  push:
+    branches: [ main, master ] # будет запускаться при пуше в любую из этих веток
 
 jobs:
   build:
