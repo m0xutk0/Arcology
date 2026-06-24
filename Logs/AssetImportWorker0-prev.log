@@ -1,0 +1,3044 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16339 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\programs\unity\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/games unity/Arcology mini
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52799
+Successfully changed project path to: E:/games unity/Arcology mini
+E:/games unity/Arcology mini
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22492]  Target information:
+
+Player connection [22492]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 2808138115 [EditorId] 2808138115 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22492]  * "[IP] 26.63.165.65 [Port] 0 [Flags] 2 [Guid] 2808138115 [EditorId] 2808138115 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22492]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2808138115 [EditorId] 2808138115 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22492]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 2808138115 [EditorId] 2808138115 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22492] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22492] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 32.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path E:/programs/unity/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/games unity/Arcology mini/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8067 MB
+    Driver:   32.0.15.8228
+Initialize mono
+Mono path[0] = 'E:/programs/unity/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'E:/programs/unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/programs/unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.012155 seconds.
+- Loaded All Assemblies, in  0.666 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 540 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.110 seconds
+Domain Reload Profiling: 1775ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (283ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1110ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1021ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (678ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.164 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.464 seconds
+Domain Reload Profiling: 2628ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (765ms)
+		LoadAssemblies (575ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (268ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1148ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (252ms)
+			ProcessInitializeOnLoadAttributes (708ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5289 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (65.1 KB). Loaded Objects now: 5751.
+Memory consumption went from 205.3 MB to 205.2 MB.
+Total: 6.000600 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.210100 ms MarkObjects: 5.144400 ms  DeleteObjects: 0.171600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15454.420550 seconds.
+  path: Assets/sprite/Elevator_2.png
+  artifactKey: Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_2.png using Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d44f7b2cba53b8888592e9efd949fc2') in 0.154223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.776456 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eb45080a0e13982b036039b7fa0ffaad') in 0.014118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021028 seconds.
+  path: Assets/sprite/Elevator_2.png
+  artifactKey: Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_2.png using Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0967ddbf57090be7aab3cb305d540586') in 0.049044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.706653 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '38090c03a3143797c973de76ed547379') in 0.014280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025847 seconds.
+  path: Assets/sprite/Elevator_2.png
+  artifactKey: Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_2.png using Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3f623a44c357e6bd9c7d25699a008348') in 0.033665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.618391 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2c26dfa25f695003afdf1765d2615b5') in 0.010665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047678 seconds.
+  path: Assets/sprite/Elevator_RightDoor_1.png
+  artifactKey: Guid(c69aac1a94297104fa05ec43e5bd3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_RightDoor_1.png using Guid(c69aac1a94297104fa05ec43e5bd3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a69bf577ff8c332868a3679957580679') in 0.011474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 30.003391 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b0094d84c582a3eba92e133f4874a2d') in 0.012682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025244 seconds.
+  path: Assets/sprite/Elevator_2.png
+  artifactKey: Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_2.png using Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e24b36ac0c79d14d9d6848455daae4c7') in 0.031675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.177515 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a2231e308b94859d876f69ca39daab7') in 0.014677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023816 seconds.
+  path: Assets/sprite/Elevator_2.png
+  artifactKey: Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_2.png using Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '488e779f823722769b538db636707e63') in 0.056253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.716177 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be9c7c18d39f7d832687b3c1cc598443') in 0.012608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028568 seconds.
+  path: Assets/sprite/Elevator_2.png
+  artifactKey: Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_2.png using Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ca3fb7fa6bbaa3988349a99287f0608') in 0.043864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.701973 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '30810fabc9d4078ae8747c9dfe211cbd') in 0.012036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024546 seconds.
+  path: Assets/sprite/Elevator_2.png
+  artifactKey: Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_2.png using Guid(1ede45aaa15a0d04daab1f7b94f2e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64156adac9b86c4ac14708c08a250621') in 0.025414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.909 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.575 seconds
+Domain Reload Profiling: 5484ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (562ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (4577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (336ms)
+			ProcessInitializeOnLoadAttributes (1755ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 7.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (95.4 KB). Loaded Objects now: 5768.
+Memory consumption went from 185.0 MB to 184.9 MB.
+Total: 9.068800 ms (FindLiveObjects: 0.995900 ms CreateObjectMapping: 0.786200 ms MarkObjects: 7.024000 ms  DeleteObjects: 0.261200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 5fb40da56f6ea94311a5bfdff3b7fc83 -> aca7125a3389c5f4127a11b74e5e93cb
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 01cbd5e2ce6d4485d938f9117b3a0648 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+========================================================================
+Received Import Request.
+  Time since last request: 288.214046 seconds.
+  path: Assets/Darkbringer Shader
+  artifactKey: Guid(3e22d23bcaba4c44384f338ed830043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader using Guid(3e22d23bcaba4c44384f338ed830043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '303fc225800246a7156eb55635177169') in 0.002469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014162 seconds.
+  path: Assets/Darkbringer Shader/bayer8x8.png
+  artifactKey: Guid(eac7505667530464e91debe0b4a8492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/bayer8x8.png using Guid(eac7505667530464e91debe0b4a8492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6fe1a993f9d243f0109e40ce3d7b814d') in 0.075550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.289431 seconds.
+  path: Assets/Darkbringer Shader/Preview
+  artifactKey: Guid(ba8022a12e5e8834a87addb870503c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview using Guid(ba8022a12e5e8834a87addb870503c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f0e78ab275c64a3a17d8ee518f3d7d67') in 0.000838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.800836 seconds.
+  path: Assets/Darkbringer Shader/Preview/Models
+  artifactKey: Guid(6368f4c411282e0448e9431054707929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Models using Guid(6368f4c411282e0448e9431054707929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bd5dde0323167f30e058e66b8e7026e0') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023792 seconds.
+  path: Assets/Darkbringer Shader/Preview/Models/SkyCar.fbx
+  artifactKey: Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Models/SkyCar.fbx using Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '965c530bf8aca05d07fd8263c9ea7746') in 1.134963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 1.699833 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials
+  artifactKey: Guid(7404f79cd1f1cf04492f2326283a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials using Guid(7404f79cd1f1cf04492f2326283a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bb34fdcd8f032ca78cd007eb65fdb5ce') in 0.000928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029641 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/B.mat
+  artifactKey: Guid(22219d033f63b7642a183280d2191d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/B.mat using Guid(22219d033f63b7642a183280d2191d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c538f9b02b6c95ddc743072841e28cfb') in 0.062615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/TvTest.mat
+  artifactKey: Guid(2b7206c331bdda747b5e4c3d21753ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/TvTest.mat using Guid(2b7206c331bdda747b5e4c3d21753ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '022b00d040fd0178380cb27f449e2d56') in 0.076180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarLightCoversGrey.mat
+  artifactKey: Guid(bf5faaa3a8e23de45bf1350be2893dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarLightCoversGrey.mat using Guid(bf5faaa3a8e23de45bf1350be2893dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '807003db3ac2d1c3241b349df998ad2e') in 0.021536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarBodyGrey.mat
+  artifactKey: Guid(d425c5c4cb38fd44f95b13e9f94575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarBodyGrey.mat using Guid(d425c5c4cb38fd44f95b13e9f94575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92fd656a2ad3d8b0ef2844b1506072a8') in 0.039463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarLightGlows.mat
+  artifactKey: Guid(3682f7747d485db4586750a832808b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarLightGlows.mat using Guid(3682f7747d485db4586750a832808b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b830f617bfee2b0d52328757d9469caf') in 0.023742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelWhite.mat
+  artifactKey: Guid(6021947067b9d6c4bac8d9e085a71558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelWhite.mat using Guid(6021947067b9d6c4bac8d9e085a71558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '52d5f57dedb62a4eb6b8fd9eb5af5ad0') in 0.015639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarLightCoversWhite.mat
+  artifactKey: Guid(bedcbcc4d577778478a5f01fe1415af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarLightCoversWhite.mat using Guid(bedcbcc4d577778478a5f01fe1415af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81d8b26536f1287f92962b3638ef1b60') in 0.012770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelGrey.mat
+  artifactKey: Guid(965a4c3cf8f0acb408f15384c947b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarWheelGrey.mat using Guid(965a4c3cf8f0acb408f15384c947b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '45154cbb3fbc5416816d9ae2f42f0f66') in 0.016322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/R.mat
+  artifactKey: Guid(c1ab2a55d6cad9941935442ceeae8294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/R.mat using Guid(c1ab2a55d6cad9941935442ceeae8294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ca95577c3e12dd5bf18a4f2256ee7c6a') in 0.013040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Darkbringer Shader/Preview/Materials/SkyCarBodyWhite.mat
+  artifactKey: Guid(6ec41f7c0e0d3fb40933551a4124b211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Materials/SkyCarBodyWhite.mat using Guid(6ec41f7c0e0d3fb40933551a4124b211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '385d3ca43c2eb683c1abc415a8c14e4e') in 0.033694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 7.160488 seconds.
+  path: Assets/Darkbringer Shader/Editor
+  artifactKey: Guid(875d0f45dc123cc4e91c07cf79cc16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Editor using Guid(875d0f45dc123cc4e91c07cf79cc16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b4e3fc5027789511597eb3ea20b720d') in 0.000719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.150639 seconds.
+  path: Assets/Darkbringer Shader/Editor/DarkBringerEffectEditor.cs
+  artifactKey: Guid(e1a5be32be11a8844ae7e7a54089b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Editor/DarkBringerEffectEditor.cs using Guid(e1a5be32be11a8844ae7e7a54089b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c0e37d6eb4730722479759b8b9c3ae87') in 0.000663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.790657 seconds.
+  path: Assets/Darkbringer Shader/LUTs
+  artifactKey: Guid(d1b0c2aecf1b02e45b461eecd899b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs using Guid(d1b0c2aecf1b02e45b461eecd899b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b185cd366b3dbcdd9a13d1cc39121f1') in 0.000689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042963 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_64_Commanders.png
+  artifactKey: Guid(b536a29ef1c463b4a894cf616766d37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_64_Commanders.png using Guid(b536a29ef1c463b4a894cf616766d37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '85461b86d456ea6a798fa3c6be07964c') in 0.023631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_Tetra_brick.png
+  artifactKey: Guid(de3899acb83b2e64eb7b694247e64006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_Tetra_brick.png using Guid(de3899acb83b2e64eb7b694247e64006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c807c3980f90a14decfdfcc9e99be454') in 0.020230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_CPC.png
+  artifactKey: Guid(f587c0fb24ed98346b1b6ea9763f624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_CPC.png using Guid(f587c0fb24ed98346b1b6ea9763f624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '83f8a8ccd2adf3246d22fa1fcd597660') in 0.019258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_stock.PNG
+  artifactKey: Guid(ad6e386de0e0fb14096d245400d241d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_stock.PNG using Guid(ad6e386de0e0fb14096d245400d241d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e73083898d03f43c051b91fca11a7d38') in 0.017563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_Famiclone.png
+  artifactKey: Guid(bb2cf10fe2fab384f8fd1da800838cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_Famiclone.png using Guid(bb2cf10fe2fab384f8fd1da800838cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f623bf4ff6093ccef7dbf1ce93ab93d') in 0.022975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Darkbringer Shader/LUTs/lut_Finder.png
+  artifactKey: Guid(186d8d4a767aca241be13a540be030a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/LUTs/lut_Finder.png using Guid(186d8d4a767aca241be13a540be030a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1905a1c13481e09a7d8f8a8891752e4') in 0.018161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.976 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.236 seconds
+Domain Reload Profiling: 3211ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (545ms)
+		LoadAssemblies (664ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2237ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (711ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Refreshing native plugins compatible for Editor in 6.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (95.5 KB). Loaded Objects now: 5859.
+Memory consumption went from 186.9 MB to 186.8 MB.
+Total: 6.216700 ms (FindLiveObjects: 0.511200 ms CreateObjectMapping: 0.294400 ms MarkObjects: 5.219000 ms  DeleteObjects: 0.190700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 5fb40da56f6ea94311a5bfdff3b7fc83 -> aca7125a3389c5f4127a11b74e5e93cb
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 01cbd5e2ce6d4485d938f9117b3a0648 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+========================================================================
+Received Import Request.
+  Time since last request: 40.818106 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures
+  artifactKey: Guid(804ac3ddb444bfe4ab70ff4f4b84ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Textures using Guid(804ac3ddb444bfe4ab70ff4f4b84ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6ebe7b1a014b395d6547bede720eb711') in 0.009577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012651 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures/SkyCarBodyNormals.png
+  artifactKey: Guid(d4ffb7d0ebee510498fba9d50f2296f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Textures/SkyCarBodyNormals.png using Guid(d4ffb7d0ebee510498fba9d50f2296f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f300a45c24b65f85b1a118ce6a69ebf') in 0.111362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures/TvTest_CC0.png
+  artifactKey: Guid(78789acf293aefa46a50c47ed99f6ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Textures/TvTest_CC0.png using Guid(78789acf293aefa46a50c47ed99f6ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c5dc22b4e063a548290b65206bd4c4e7') in 0.039232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Darkbringer Shader/Preview/Textures/SkyCarLightsGlowAlpha.png
+  artifactKey: Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darkbringer Shader/Preview/Textures/SkyCarLightsGlowAlpha.png using Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e19af97e9c580235a92296383b0950ad') in 0.021217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.548733 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e6c190d8c542ae906cea5f7cb472009c') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.069689 seconds.
+  path: Assets/TutorialInfo/Scripts
+  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59ff7454aad3a38361504eac634665fc') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.449993 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor
+  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bdc6825f1e02469dd58c4966daa1cab3') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.486 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.651 seconds
+Domain Reload Profiling: 4133ms
+	BeginReloadAssembly (373ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (879ms)
+		LoadAssemblies (919ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (112ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2651ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (984ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (623ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Refreshing native plugins compatible for Editor in 5.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (34.5 KB). Loaded Objects now: 5865.
+Memory consumption went from 186.0 MB to 186.0 MB.
+Total: 5.633200 ms (FindLiveObjects: 0.528400 ms CreateObjectMapping: 0.230100 ms MarkObjects: 4.801000 ms  DeleteObjects: 0.072300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8d6202fc1b00392ca997dbc22ed562bd -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Import Request.
+  Time since last request: 159.423669 seconds.
+  path: Assets/URP_Retro16Bit.shader
+  artifactKey: Guid(c2a3633ecc7d30b45b0d264a643904bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_Retro16Bit.shader using Guid(c2a3633ecc7d30b45b0d264a643904bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27dd6bee05aa8ac4af3ef5ecfbb02a4c') in 0.033509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.911214 seconds.
+  path: Assets/URP_Retro16Bit.shader
+  artifactKey: Guid(c2a3633ecc7d30b45b0d264a643904bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP_Retro16Bit.shader using Guid(c2a3633ecc7d30b45b0d264a643904bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8a4b8f906ef39cf567c574dff26dfe7d') in 0.109498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 168.497210 seconds.
+  path: Assets/Retro16BitPostProcess.shader
+  artifactKey: Guid(1633d2838b21b72489e6146a67c30097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Retro16BitPostProcess.shader using Guid(1633d2838b21b72489e6146a67c30097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cffa9940f524be4761dab0701f5ba6bf') in 0.002238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.720334 seconds.
+  path: Assets/Retro16BitPostProcess.shader
+  artifactKey: Guid(1633d2838b21b72489e6146a67c30097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Retro16BitPostProcess.shader using Guid(1633d2838b21b72489e6146a67c30097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '80dc3541d487dd4cb110691000ae9896') in 0.004100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.727841 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(07a88e0b926a7014fb17934f048570dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(07a88e0b926a7014fb17934f048570dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd09873157fbe41ee74caf817773cf66') in 3.923064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 2.451567 seconds.
+  path: Assets/M_Retro16Bit_PostProcess.mat
+  artifactKey: Guid(07a88e0b926a7014fb17934f048570dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M_Retro16Bit_PostProcess.mat using Guid(07a88e0b926a7014fb17934f048570dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '25176266d9c8b4b1e1daf487ecca66c5') in 0.033107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 55.315550 seconds.
+  path: Assets/Hidden_URP_Retro16Bit_PostProcess.mat
+  artifactKey: Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hidden_URP_Retro16Bit_PostProcess.mat using Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '22627f8b853d0b4401736258b156f50a') in 0.146022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.982808 seconds.
+  path: Assets/M_Retro16Bit_PostProcess.mat
+  artifactKey: Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M_Retro16Bit_PostProcess.mat using Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f72795de1b634b4ebd886bd230fce656') in 0.015444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.144392 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '910559ff8801aab3d8f08fbf1481f4e7') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037889 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2c2b4c1829067a734156d4ace115293') in 0.003657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.005057 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf176e509499f27050e216aea5c71dcc') in 0.008061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d4839ec89ad74583c233e6cf7531988') in 0.001033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '25dc83518e76a5fd19f0c009e531c0e7') in 0.001219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fcf2edc17007ff6fd0d1d575c3f4be3d') in 0.003877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.349707 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '32a2922f8fceb037b777e9cb7dbcef70') in 0.001790 seconds
+Number of updated asset objects reloaded before import = 2
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.080171 seconds.
+  path: Assets/scripts/RetroCameraController.cs
+  artifactKey: Guid(6d480e3186d3ba34a83b64e5fc85b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/RetroCameraController.cs using Guid(6d480e3186d3ba34a83b64e5fc85b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c1992a4925af28e05f85e7159aa1c90f') in 0.000797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.910 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.742 seconds
+Domain Reload Profiling: 4652ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (572ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (72ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (796ms)
+			ProcessInitializeOnLoadMethodAttributes (276ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (514ms)
+Refreshing native plugins compatible for Editor in 9.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 5911.
+Memory consumption went from 186.7 MB to 186.7 MB.
+Total: 8.550900 ms (FindLiveObjects: 1.006000 ms CreateObjectMapping: 0.613200 ms MarkObjects: 6.808500 ms  DeleteObjects: 0.121300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f4545e72bbe28708fc96535661c8bc03 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Import Request.
+  Time since last request: 15.614433 seconds.
+  path: Assets/scripts/RetroCameraController.cs
+  artifactKey: Guid(6d480e3186d3ba34a83b64e5fc85b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/RetroCameraController.cs using Guid(6d480e3186d3ba34a83b64e5fc85b4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '020265e7b9134e87375d3137b928f43d') in 0.006577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.662 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.825 seconds
+Domain Reload Profiling: 4486ms
+	BeginReloadAssembly (578ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (1060ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (122ms)
+			ResolveRequiredComponents (50ms)
+	FinalizeReload (2826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (300ms)
+			ProcessInitializeOnLoadAttributes (808ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
+Refreshing native plugins compatible for Editor in 7.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 5916.
+Memory consumption went from 186.3 MB to 186.2 MB.
+Total: 7.378600 ms (FindLiveObjects: 0.660000 ms CreateObjectMapping: 0.248400 ms MarkObjects: 6.369800 ms  DeleteObjects: 0.098800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f4545e72bbe28708fc96535661c8bc03 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.888 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.424 seconds
+Domain Reload Profiling: 3312ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (748ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 5921.
+Memory consumption went from 186.3 MB to 186.3 MB.
+Total: 7.181700 ms (FindLiveObjects: 0.679300 ms CreateObjectMapping: 0.326700 ms MarkObjects: 6.079100 ms  DeleteObjects: 0.094700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f4545e72bbe28708fc96535661c8bc03 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Import Request.
+  Time since last request: 489.816228 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(6846d2c34324eb845a626123e80e7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(6846d2c34324eb845a626123e80e7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '80f38b88369a66f6b6d33c6f8fe6306c') in 0.006285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.134423 seconds.
+  path: Assets/sprite/LightOff_Elevator_2.png
+  artifactKey: Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_2.png using Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '94f5368cd13d89a83175965b545e2071') in 0.116702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprite/LightOff_Elevator_RightDoor_1.png
+  artifactKey: Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_RightDoor_1.png using Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '46ad75677f69b9a45757dc9d6fa6a54b') in 0.021991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.351806 seconds.
+  path: Assets/sprite/LightOff_Elevator_RightDoor_1.png
+  artifactKey: Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_RightDoor_1.png using Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b1efbd3998f317e04a783494fb840ea5') in 0.023751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018811 seconds.
+  path: Assets/sprite/LightOff_Elevator_LeftDoor_1.png
+  artifactKey: Guid(a46cc151460179a4fa4fc00f68c50da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_LeftDoor_1.png using Guid(a46cc151460179a4fa4fc00f68c50da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11cc5a9313513f373477791cc167eb89') in 0.040766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.778325 seconds.
+  path: Assets/sprite/LightOff_Elevator_RightDoor_1.png
+  artifactKey: Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_RightDoor_1.png using Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '39d8c025a26c773cbc2fc4b8e37fac6b') in 0.020338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018455 seconds.
+  path: Assets/sprite/LightOff_Elevator_2.png
+  artifactKey: Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_2.png using Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '67507d98e79f78e8a298974540850875') in 0.020521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.796628 seconds.
+  path: Assets/sprite/LightOff_Elevator_RightDoor_1.png
+  artifactKey: Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_RightDoor_1.png using Guid(67182b22b57f207479c506b789a6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c2cf7ef27d8c960e23c5bbe78a9fb1c') in 0.062604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite/LightOff_Elevator_LeftDoor_1.png
+  artifactKey: Guid(a46cc151460179a4fa4fc00f68c50da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_LeftDoor_1.png using Guid(a46cc151460179a4fa4fc00f68c50da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c9c26dc1bc68bdb097f6729588852eac') in 0.021857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 42.656287 seconds.
+  path: Assets/scripts/Elevator/LightContoller.cs
+  artifactKey: Guid(a7e35461e550d724bb8d2ddee46cf3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Elevator/LightContoller.cs using Guid(a7e35461e550d724bb8d2ddee46cf3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b45506e617e3fecfbe8a49df452e897') in 0.000805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.009 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.328 seconds
+Domain Reload Profiling: 4335ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (684ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Refreshing native plugins compatible for Editor in 8.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 5931.
+Memory consumption went from 186.3 MB to 186.3 MB.
+Total: 11.611800 ms (FindLiveObjects: 2.488500 ms CreateObjectMapping: 0.747100 ms MarkObjects: 8.278800 ms  DeleteObjects: 0.095600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.120 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.711 seconds
+Domain Reload Profiling: 3830ms
+	BeginReloadAssembly (374ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (571ms)
+		LoadAssemblies (673ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (788ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Refreshing native plugins compatible for Editor in 7.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.5 KB). Loaded Objects now: 5936.
+Memory consumption went from 186.3 MB to 186.3 MB.
+Total: 8.636100 ms (FindLiveObjects: 2.471600 ms CreateObjectMapping: 0.461400 ms MarkObjects: 5.615800 ms  DeleteObjects: 0.085100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.928 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.393 seconds
+Domain Reload Profiling: 3320ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (615ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (736ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 6.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.5 KB). Loaded Objects now: 5941.
+Memory consumption went from 186.3 MB to 186.3 MB.
+Total: 6.413700 ms (FindLiveObjects: 0.613800 ms CreateObjectMapping: 0.395000 ms MarkObjects: 5.332400 ms  DeleteObjects: 0.071000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Import Request.
+  Time since last request: 2494.840267 seconds.
+  path: Assets/M_Retro16Bit_PostProcess.mat
+  artifactKey: Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M_Retro16Bit_PostProcess.mat using Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff19e2864141970443cf75816b196357') in 0.489848 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 7.791801 seconds.
+  path: Assets/Animations/ElevatorDoor
+  artifactKey: Guid(e9dcd1739c78e214bbbaf650a4abf407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor using Guid(e9dcd1739c78e214bbbaf650a4abf407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bec61618c6b196d50b50cb9470e8db54') in 0.000882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.855313 seconds.
+  path: Assets/Animations/ElevatorDoor/Elevator.controller
+  artifactKey: Guid(873d99644ad3b4a4cad47f0d3ef0811f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/Elevator.controller using Guid(873d99644ad3b4a4cad47f0d3ef0811f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c689a48f3e0a4d99ccdffab2e8d94f2') in 0.004900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.416359 seconds.
+  path: Assets/Animations/ElevatorDoor/Close.anim
+  artifactKey: Guid(0baacea4fcb4bd9438631e2686c99c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/Close.anim using Guid(0baacea4fcb4bd9438631e2686c99c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '13179bda1e89439216ce2dfa5e748155') in 0.001550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.086 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.482 seconds
+Domain Reload Profiling: 4566ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (751ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (803ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (73ms)
+Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (105.4 KB). Loaded Objects now: 5981.
+Memory consumption went from 186.5 MB to 186.4 MB.
+Total: 9.452800 ms (FindLiveObjects: 0.744900 ms CreateObjectMapping: 0.223700 ms MarkObjects: 8.091700 ms  DeleteObjects: 0.390700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.896 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.548 seconds
+Domain Reload Profiling: 3444ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (591ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (252ms)
+			ProcessInitializeOnLoadAttributes (857ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (62ms)
+Refreshing native plugins compatible for Editor in 7.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 5986.
+Memory consumption went from 186.3 MB to 186.3 MB.
+Total: 6.769100 ms (FindLiveObjects: 0.591800 ms CreateObjectMapping: 0.341500 ms MarkObjects: 5.765200 ms  DeleteObjects: 0.069000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.972 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.681 seconds
+Domain Reload Profiling: 3652ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (629ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2683ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (273ms)
+			ProcessInitializeOnLoadAttributes (874ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (68ms)
+Refreshing native plugins compatible for Editor in 7.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 5991.
+Memory consumption went from 186.3 MB to 186.3 MB.
+Total: 8.650300 ms (FindLiveObjects: 0.812900 ms CreateObjectMapping: 0.666200 ms MarkObjects: 7.079500 ms  DeleteObjects: 0.089800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Import Request.
+  Time since last request: 2577.433350 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures
+  artifactKey: Guid(d79a7b36ba359984892ba44412595868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures using Guid(d79a7b36ba359984892ba44412595868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2c0ccb3f59f29615ce723bc607399d15') in 0.036868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.663853 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0001.png
+  artifactKey: Guid(695825686cb3d1b45b5b33ab7d1b1608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0001.png using Guid(695825686cb3d1b45b5b33ab7d1b1608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'acf0eb6c1aa4143f6168be47938b086c') in 0.375568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013947 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0014.png
+  artifactKey: Guid(13f13811e3bf9234787d717a2be9862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0014.png using Guid(13f13811e3bf9234787d717a2be9862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b710b7b4cfc1752ae1b4049e247cc69a') in 0.279667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0009.png
+  artifactKey: Guid(453b9c08508f8dc4b83b16d9c71ee824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0009.png using Guid(453b9c08508f8dc4b83b16d9c71ee824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fb84e50101ff8f05a78d443434939ae9') in 0.109953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002135 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0015.png
+  artifactKey: Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0015.png using Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '228cbc1c51a54fafe4d9b0d0c2c0e97a') in 0.045799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0021.png
+  artifactKey: Guid(a8f4def363e21ac4ba72bd84e69f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0021.png using Guid(a8f4def363e21ac4ba72bd84e69f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4bfc650c922719a27ce5935095139740') in 0.063110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0022.png
+  artifactKey: Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0022.png using Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7bdf0f9fd0e84225b226f239215749f6') in 0.045491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0018.png
+  artifactKey: Guid(6f0f4c84c9350b141adc943c8eaac620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0018.png using Guid(6f0f4c84c9350b141adc943c8eaac620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7299fcf59da8523fd38712df7377ef8d') in 0.107138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0023.png
+  artifactKey: Guid(57bf36dd91724d0498ee2d7165ba5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0023.png using Guid(57bf36dd91724d0498ee2d7165ba5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '616e843e5e75bd46fa869eef329e6c3f') in 0.016744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0003.png
+  artifactKey: Guid(f3eada095b003ab45bed6ba88f783e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0003.png using Guid(f3eada095b003ab45bed6ba88f783e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93b10aa3b1699f7eb88f6c1afe49e1a6') in 0.100315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0016.png
+  artifactKey: Guid(fc2ee21029898e14f8c47f38b18a22a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0016.png using Guid(fc2ee21029898e14f8c47f38b18a22a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f1a6b9b1f416f86643c1f4b3c3e50c7') in 0.112717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0007.png
+  artifactKey: Guid(3f8b0b069042b7b40bd74fc1f1e06b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0007.png using Guid(3f8b0b069042b7b40bd74fc1f1e06b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eaa0602b69a8b771a06fde799522e2f2') in 0.026633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.700826 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0015.png
+  artifactKey: Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0015.png using Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a85b49cbaedc27ef865379e2ff0876a8') in 0.058154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029855 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0001.png
+  artifactKey: Guid(695825686cb3d1b45b5b33ab7d1b1608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0001.png using Guid(695825686cb3d1b45b5b33ab7d1b1608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '86927a3e3f2dba3dc47fffd5ece3cb07') in 0.018026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0014.png
+  artifactKey: Guid(13f13811e3bf9234787d717a2be9862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0014.png using Guid(13f13811e3bf9234787d717a2be9862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b4b616bb5843576893d22c1863e1d849') in 0.049472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0021.png
+  artifactKey: Guid(a8f4def363e21ac4ba72bd84e69f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0021.png using Guid(a8f4def363e21ac4ba72bd84e69f39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '011614ad63a1409453697a0bde91f326') in 0.037795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0011.png
+  artifactKey: Guid(2127edd41ba2ca4499c740a46301162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0011.png using Guid(2127edd41ba2ca4499c740a46301162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6b72394728ab1ac99c99768daed950ef') in 0.035672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0022.png
+  artifactKey: Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0022.png using Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '68b2dc57012d1d460f36d541a5a64c96') in 0.016163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0010.png
+  artifactKey: Guid(a8910b86dbfcb2640b0539eaa4345900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0010.png using Guid(a8910b86dbfcb2640b0539eaa4345900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a73378447a828c72beeaba859d3f231b') in 0.018737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0005.png
+  artifactKey: Guid(540cb33875ee03742ae3dc5e1584bca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0005.png using Guid(540cb33875ee03742ae3dc5e1584bca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '53a577762e2cf920155a310e2aaee473') in 0.019241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0023.png
+  artifactKey: Guid(57bf36dd91724d0498ee2d7165ba5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0023.png using Guid(57bf36dd91724d0498ee2d7165ba5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '47151b8a7935d0622657b2ff108a65aa') in 0.018394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0017.png
+  artifactKey: Guid(a7bc12d1c29fa674784b02667f932c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0017.png using Guid(a7bc12d1c29fa674784b02667f932c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b70b7565fa319b1ae61805f959307bb') in 0.028983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0020.png
+  artifactKey: Guid(d6728ddfff7538947976479a1c2ba2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0020.png using Guid(d6728ddfff7538947976479a1c2ba2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '567f9432f4277addc85b5c0de9481509') in 0.030734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0024.png
+  artifactKey: Guid(3e2771ed4c9aaf341889a2d2ce4d5ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0024.png using Guid(3e2771ed4c9aaf341889a2d2ce4d5ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a115c18eb11caafe869e1b8a8f80e5ae') in 0.022025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0012.png
+  artifactKey: Guid(44d1872efc341a6419ab54b68a2a3bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0012.png using Guid(44d1872efc341a6419ab54b68a2a3bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9265a7e7fe0475a14fba52f6960fbed7') in 0.014791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.548306 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0015.png
+  artifactKey: Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0015.png using Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad0e771a14a48dd1f41292198a91d506') in 0.047001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015474 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0001.png
+  artifactKey: Guid(695825686cb3d1b45b5b33ab7d1b1608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0001.png using Guid(695825686cb3d1b45b5b33ab7d1b1608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5143a51bcff5223902033f8b33c84c1d') in 0.022129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0014.png
+  artifactKey: Guid(13f13811e3bf9234787d717a2be9862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0014.png using Guid(13f13811e3bf9234787d717a2be9862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad78072d371b84565ef4b0c0f63492c8') in 0.025147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0008.png
+  artifactKey: Guid(4d4d663b1eed5ae4b83dbf9d04136d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0008.png using Guid(4d4d663b1eed5ae4b83dbf9d04136d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '251908af78006bc7e62c84cf8add4c72') in 0.039411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0004.png
+  artifactKey: Guid(cdca50db52ec321449af9ced686df622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0004.png using Guid(cdca50db52ec321449af9ced686df622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93c63b54ed1ead78fb0906b04fbf981a') in 0.021814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0019.png
+  artifactKey: Guid(0511a82a97bb50747a7498d6e9b6f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0019.png using Guid(0511a82a97bb50747a7498d6e9b6f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a32a4f2b115722dae34023b527c5fa5c') in 0.041216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0022.png
+  artifactKey: Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0022.png using Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9d73c77e98befc27c20203c93414d01c') in 0.023312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0018.png
+  artifactKey: Guid(6f0f4c84c9350b141adc943c8eaac620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0018.png using Guid(6f0f4c84c9350b141adc943c8eaac620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc2236c0b4ebffe622c491ed44c8fdd0') in 0.034979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0013.png
+  artifactKey: Guid(b8aa34a62ab6aca4dacb7fb52433ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0013.png using Guid(b8aa34a62ab6aca4dacb7fb52433ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fa128ccd2722ee2f205b0cc16a9728d4') in 0.023515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0017.png
+  artifactKey: Guid(a7bc12d1c29fa674784b02667f932c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0017.png using Guid(a7bc12d1c29fa674784b02667f932c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fa5fa335b46197d9c5f9dc71bd347bc7') in 0.018412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0020.png
+  artifactKey: Guid(d6728ddfff7538947976479a1c2ba2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0020.png using Guid(d6728ddfff7538947976479a1c2ba2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ed0ce037985fe34ca107278fcee1738') in 0.019859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0006.png
+  artifactKey: Guid(6ece1c52e8758914eb475b6c24476e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0006.png using Guid(6ece1c52e8758914eb475b6c24476e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '84b974755866652162fdaf946e02fdb2') in 0.037019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0012.png
+  artifactKey: Guid(44d1872efc341a6419ab54b68a2a3bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0012.png using Guid(44d1872efc341a6419ab54b68a2a3bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6d2a02d0cb1ab75f7c012fac3f9aaf96') in 0.033205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 228.840621 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0015.png
+  artifactKey: Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0015.png using Guid(d2edc46880153a74688bd8107d460872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ababd27096863b2ad9fc45462c696e1') in 0.293993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0004.png
+  artifactKey: Guid(cdca50db52ec321449af9ced686df622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0004.png using Guid(cdca50db52ec321449af9ced686df622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23d66b1d1444dfc31c9713986f84f854') in 0.054152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0019.png
+  artifactKey: Guid(0511a82a97bb50747a7498d6e9b6f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0019.png using Guid(0511a82a97bb50747a7498d6e9b6f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20f582921a6452c6fee60d352e04afd7') in 0.046018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0022.png
+  artifactKey: Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0022.png using Guid(9cf66585eb4c9dd469d04aa5a9c36bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b62427dbbc0115d869f5ca8c5f76bff') in 0.043990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0018.png
+  artifactKey: Guid(6f0f4c84c9350b141adc943c8eaac620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0018.png using Guid(6f0f4c84c9350b141adc943c8eaac620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8dbad2e87dc69972e337696743510a66') in 0.051842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0023.png
+  artifactKey: Guid(57bf36dd91724d0498ee2d7165ba5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0023.png using Guid(57bf36dd91724d0498ee2d7165ba5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7bc4e982b1f854ada4ec0ede3e75a403') in 0.030545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0017.png
+  artifactKey: Guid(a7bc12d1c29fa674784b02667f932c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0017.png using Guid(a7bc12d1c29fa674784b02667f932c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '94babc3e7d4dbf86c971c0e51f32ae5c') in 0.024301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0020.png
+  artifactKey: Guid(d6728ddfff7538947976479a1c2ba2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0020.png using Guid(d6728ddfff7538947976479a1c2ba2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c6e4e510754f41ec06638f90aef78c0f') in 0.023597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0006.png
+  artifactKey: Guid(6ece1c52e8758914eb475b6c24476e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0006.png using Guid(6ece1c52e8758914eb475b6c24476e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b6a85204e96e16ac8e915873859a137') in 0.024066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animations/ElevatorDoor/pictures/0.png0012.png
+  artifactKey: Guid(44d1872efc341a6419ab54b68a2a3bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/pictures/0.png0012.png using Guid(44d1872efc341a6419ab54b68a2a3bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '085e83bce8bd71821d5d33b814012e0f') in 0.021247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.970 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.017 seconds
+Domain Reload Profiling: 3985ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (685ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3018ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1135ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (733ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
+Refreshing native plugins compatible for Editor in 9.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 5996.
+Memory consumption went from 186.4 MB to 186.3 MB.
+Total: 35.076600 ms (FindLiveObjects: 0.932700 ms CreateObjectMapping: 0.422100 ms MarkObjects: 33.650000 ms  DeleteObjects: 0.070000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.966 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.975 seconds
+Domain Reload Profiling: 3940ms
+	BeginReloadAssembly (313ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (628ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1083ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (697ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 6.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 6001.
+Memory consumption went from 186.4 MB to 186.3 MB.
+Total: 5.889300 ms (FindLiveObjects: 0.509500 ms CreateObjectMapping: 0.220900 ms MarkObjects: 5.088900 ms  DeleteObjects: 0.068600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.835 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.330 seconds
+Domain Reload Profiling: 3164ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (244ms)
+			ProcessInitializeOnLoadAttributes (715ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Refreshing native plugins compatible for Editor in 7.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.5 KB). Loaded Objects now: 6006.
+Memory consumption went from 186.4 MB to 186.3 MB.
+Total: 15.108400 ms (FindLiveObjects: 0.574300 ms CreateObjectMapping: 0.265700 ms MarkObjects: 14.197400 ms  DeleteObjects: 0.069400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 751b20c5669899eb09ab2ebbd15ae3f9 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Import Request.
+  Time since last request: 665.847377 seconds.
+  path: Assets/Animations/ElevatorDoor/Close.anim
+  artifactKey: Guid(0baacea4fcb4bd9438631e2686c99c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ElevatorDoor/Close.anim using Guid(0baacea4fcb4bd9438631e2686c99c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '69e599845f76027cfca293f3d979ffef') in 0.029234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.472 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.559 seconds
+Domain Reload Profiling: 5029ms
+	BeginReloadAssembly (474ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (774ms)
+		LoadAssemblies (905ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (3560ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (300ms)
+			ProcessInitializeOnLoadAttributes (905ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (71ms)
+Refreshing native plugins compatible for Editor in 7.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 6011.
+Memory consumption went from 186.4 MB to 186.4 MB.
+Total: 8.361900 ms (FindLiveObjects: 0.840800 ms CreateObjectMapping: 0.899100 ms MarkObjects: 6.465900 ms  DeleteObjects: 0.154300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.110 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.770 seconds
+Domain Reload Profiling: 3879ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (748ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (875ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (76ms)
+Refreshing native plugins compatible for Editor in 6.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.5 KB). Loaded Objects now: 6016.
+Memory consumption went from 186.4 MB to 186.4 MB.
+Total: 6.779100 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.372600 ms MarkObjects: 5.735100 ms  DeleteObjects: 0.092000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.550 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.302 seconds
+Domain Reload Profiling: 4849ms
+	BeginReloadAssembly (558ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (190ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (759ms)
+		LoadAssemblies (909ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (3303ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (392ms)
+			ProcessInitializeOnLoadAttributes (983ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
+Refreshing native plugins compatible for Editor in 6.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 6021.
+Memory consumption went from 186.4 MB to 186.4 MB.
+Total: 6.322000 ms (FindLiveObjects: 0.610800 ms CreateObjectMapping: 0.287300 ms MarkObjects: 5.345700 ms  DeleteObjects: 0.076400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.165 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.724 seconds
+Domain Reload Profiling: 3887ms
+	BeginReloadAssembly (378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (750ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2725ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (276ms)
+			ProcessInitializeOnLoadAttributes (829ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Refreshing native plugins compatible for Editor in 9.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 6026.
+Memory consumption went from 186.4 MB to 186.4 MB.
+Total: 8.163800 ms (FindLiveObjects: 1.024400 ms CreateObjectMapping: 0.709500 ms MarkObjects: 6.341100 ms  DeleteObjects: 0.086900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.172 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.132 seconds
+Domain Reload Profiling: 6299ms
+	BeginReloadAssembly (496ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (226ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (1306ms)
+		LoadAssemblies (1505ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (59ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (4133ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1713ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (346ms)
+			ProcessInitializeOnLoadAttributes (1092ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (78ms)
+Refreshing native plugins compatible for Editor in 13.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.3 KB). Loaded Objects now: 6031.
+Memory consumption went from 186.4 MB to 186.4 MB.
+Total: 10.226900 ms (FindLiveObjects: 1.158000 ms CreateObjectMapping: 0.547700 ms MarkObjects: 8.408600 ms  DeleteObjects: 0.110400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.301 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.206 seconds
+Domain Reload Profiling: 4504ms
+	BeginReloadAssembly (442ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (832ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (3207ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (985ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (75ms)
+Refreshing native plugins compatible for Editor in 11.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (32.4 KB). Loaded Objects now: 6036.
+Memory consumption went from 186.4 MB to 186.4 MB.
+Total: 8.354300 ms (FindLiveObjects: 1.228500 ms CreateObjectMapping: 0.696500 ms MarkObjects: 6.295500 ms  DeleteObjects: 0.131500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (5.5 KB). Loaded Objects now: 6036.
+Memory consumption went from 106.8 MB to 106.8 MB.
+Total: 13.521900 ms (FindLiveObjects: 1.017900 ms CreateObjectMapping: 0.571400 ms MarkObjects: 11.890900 ms  DeleteObjects: 0.039900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (5.5 KB). Loaded Objects now: 6036.
+Memory consumption went from 106.5 MB to 106.5 MB.
+Total: 7.022100 ms (FindLiveObjects: 0.576000 ms CreateObjectMapping: 0.214500 ms MarkObjects: 6.188400 ms  DeleteObjects: 0.041500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DarkbringerUIPreview.cs: ae6d2ef7f6ba7fcaa5bde4b6a995d56b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DarkBringerEffectEditor.cs: 9af0f7daa6a1742e4d96b8d81a268621 -> 
+  custom:scripting/monoscript/fileName/RetroCameraController.cs: 161521ae111cae8785a12281096cd32a -> 
+  custom:scripting/monoscript/fileName/DarkbringerEffect.cs: 1fdf3caca1c57cc919aaf0b70f9da68e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LightContoller.cs: 7ca061ca1ba86f93dd773af5e26a662e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 0640615e68ae415c8adb0535396b225d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d379b9bcbd434adfa6c437d8ece7cec3 -> a22b8b2fcd1cd135a43e0ec8c60cbe51
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> aca7125a3389c5f4127a11b74e5e93cb
