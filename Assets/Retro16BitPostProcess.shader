@@ -26,35 +26,42 @@ Shader "Hidden/URP_Retro16Bit_PostProcess"
             #pragma fragment Frag
 
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-            // Этот инклюд автоматически предоставляет вершины и UV для полноэкранного блита
             #include "Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blit.hlsl"
 
-            float _RedBits;
-            float _GreenBits;
-            float _BlueBits;
-            float _PixelationActive;
-            float _PixelSizeX;
-            float _PixelSizeY;
+            // ОБЯЗАТЕЛЬНО ДЛЯ IOS: Упаковка свойств в константный буфер
+            CBUFFER_START(UnityPerMaterial)
+                float _RedBits;
+                float _GreenBits;
+                float _BlueBits;
+                float _PixelationActive;
+                float _PixelSizeX;
+                float _PixelSizeY;
+            CBUFFER_END
 
             float QuantizeChannel(float rawColor, float bits)
             {
-                float levels = pow(2.0, bits) - 1.0;
+                // Защита: гарантируем, что bits не упадет ниже 1.0
+                float safeBits = max(1.0, bits);
+                float levels = pow(2.0, safeBits) - 1.0;
+                
+                // Защита от деления на ноль
+                if (levels < 1.0) levels = 1.0; 
+                
                 return round(rawColor * levels) / levels;
             }
 
             float4 Frag(Varyings input) : SV_Target
             {
-                // В Blit.hlsl координаты экрана лежат в input.texcoord
                 float2 uv = input.texcoord;
 
-                // Пикселизация экрана
-                if (_PixelationActive > 0.5)
+                // Пикселизация экрана с защитой от нулевого разрешения
+                if (_PixelationActive > 0.5 && _PixelSizeX > 1.0 && _PixelSizeY > 1.0)
                 {
                     uv.x = round(uv.x * _PixelSizeX) / _PixelSizeX;
                     uv.y = round(uv.y * _PixelSizeY) / _PixelSizeY;
                 }
 
-                // Выборка пикселя из кадра камеры (_BlitTexture — стандартное имя в URP)
+                // Выборка пикселя из кадра камеры
                 float4 color = SAMPLE_TEXTURE2D_X(_BlitTexture, sampler_LinearClamp, uv);
 
                 // Поканальное уменьшение битности
@@ -63,7 +70,6 @@ Shader "Hidden/URP_Retro16Bit_PostProcess"
                 retroColor.g = QuantizeChannel(color.g, _GreenBits);
                 retroColor.b = QuantizeChannel(color.b, _BlueBits);
 
-                // Возвращаем результат. Альфа-канал экрана обычно равен 1.0, сохраняем его
                 return float4(retroColor, color.a);
             }
             ENDHLSL
