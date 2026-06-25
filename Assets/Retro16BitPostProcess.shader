@@ -1,4 +1,4 @@
-Shader "Hidden/URP_Retro16Bit_PostProcess"
+Shader "Retro/16Bit_PostProcess"
 {
     Properties
     {

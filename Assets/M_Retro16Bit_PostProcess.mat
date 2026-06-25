@@ -26,11 +26,11 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _BlueBits: 8
-    - _GreenBits: 8
+    - _BlueBits: 7
+    - _GreenBits: 7
     - _PixelSizeX: 640
     - _PixelSizeY: 305
     - _PixelationActive: 1
-    - _RedBits: 8
+    - _RedBits: 7
     m_Colors: []
   m_BuildTextureStacks: []

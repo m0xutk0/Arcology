@@ -282,15 +282,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d480e3186d3ba34a83b64e5fc85b4b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   retroMaterial: {fileID: 2100000, guid: ca60277ca05a1e14cb9d72a160f42dfa, type: 2}
-  redBits: 8
-  greenBits: 8
-  blueBits: 8
+  redBits: 7
+  greenBits: 7
+  blueBits: 7
   enablePixelation: 1
   targetWidth: 640
   targetHeight: 305
