@@ -296,7 +296,7 @@ MonoBehaviour:
   closedPositionLeft: {x: 0, y: 0, z: 0}
   closedPositionRight: {x: 0, y: 0, z: 0}
   moveDuration: 2
-  framesPerSecond: 15
+  framesPerSecond: 17
   OpenDoorSound: {fileID: 8300000, guid: 5dc883fb743f5434881508b1ab2f3c6f, type: 3}
   CloseDoorSound: {fileID: 8300000, guid: adf8babf4444dfa40a64852814c17083, type: 3}
 --- !u!1 &330585543
@@ -312,7 +312,6 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
-  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -452,25 +451,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxOffset: 5.85
   smoothSpeed: 2
---- !u!114 &330585549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d480e3186d3ba34a83b64e5fc85b4b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  retroMaterial: {fileID: 2100000, guid: ca60277ca05a1e14cb9d72a160f42dfa, type: 2}
-  redBits: 7
-  greenBits: 7
-  blueBits: 7
-  enablePixelation: 1
-  targetWidth: 640
-  targetHeight: 305
 --- !u!1 &406054708
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +478,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1299999, y: 3.1299999, z: 3.1299999}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1704785189}
@@ -1840,7 +1820,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -3
-  m_Sprite: {fileID: 21300000, guid: fb364ce9d23ac58498c15d68c139ef4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e19f8d457791ecf4a9a45042de4b9b21, type: 3}
   m_Color: {r: 0.5764706, g: 0.50980395, b: 0.41960785, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -15,7 +15,7 @@ E:/games unity/Arcology mini
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60495
+62523
 Successfully changed project path to: E:/games unity/Arcology mini
 E:/games unity/Arcology mini
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,21 +49,21 @@ E:/games unity/Arcology mini
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29584]  Target information:
+Player connection [22184]  Target information:
 
-Player connection [29584]  * "[IP] 172.27.0.1 [Port] 0 [Flags] 2 [Guid] 1146974308 [EditorId] 1146974308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22184]  * "[IP] 172.27.0.1 [Port] 0 [Flags] 2 [Guid] 1016717432 [EditorId] 1016717432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29584]  * "[IP] 26.63.165.65 [Port] 0 [Flags] 2 [Guid] 1146974308 [EditorId] 1146974308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22184]  * "[IP] 26.63.165.65 [Port] 0 [Flags] 2 [Guid] 1016717432 [EditorId] 1016717432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29584]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1146974308 [EditorId] 1146974308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22184]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1016717432 [EditorId] 1016717432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29584]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1146974308 [EditorId] 1146974308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22184]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1016717432 [EditorId] 1016717432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DSVDGVQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29584] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29584] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22184] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22184] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 4970.51 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 19.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path E:/programs/unity/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'E:/programs/unity/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'E:/programs/unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/programs/unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -87,48 +87,49 @@ Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/Play
 Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: E:/programs/unity/2022.3.62f3/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 2.213115 seconds.
-- Loaded All Assemblies, in  6.656 seconds
+Registered in 0.013177 seconds.
+- Loaded All Assemblies, in  0.617 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
+[usbmuxd] Attached: 16 00008030-00110D611A83C02E
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 696 ms
+Android Extension - Scanning For ADB Devices 504 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.298 seconds
-Domain Reload Profiling: 7954ms
-	BeginReloadAssembly (409ms)
+- Finished resetting the current domain, in  1.037 seconds
+Domain Reload Profiling: 1654ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (884ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (2296ms)
-	LoadAllAssembliesAndSetupDomain (3050ms)
-		LoadAssemblies (461ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (170ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2993ms)
-			TypeCache.Refresh (2990ms)
-				TypeCache.ScanAssembly (2153ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (246ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1298ms)
+	FinalizeReload (1038ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1206ms)
+		SetupLoadedEditorAssemblies (945ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (922ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (649ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,54 +138,54 @@ Domain Reload Profiling: 7954ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.620 seconds
+- Loaded All Assemblies, in  1.290 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.226 seconds
-Domain Reload Profiling: 5845ms
-	BeginReloadAssembly (266ms)
+- Finished resetting the current domain, in  1.230 seconds
+Domain Reload Profiling: 2520ms
+	BeginReloadAssembly (335ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (53ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (4210ms)
-		LoadAssemblies (3635ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (814ms)
+		LoadAssemblies (670ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (727ms)
-			TypeCache.Refresh (659ms)
-				TypeCache.ScanAssembly (635ms)
-			ScanForSourceGeneratedMonoScriptInfo (44ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1227ms)
+		AnalyzeDomain (379ms)
+			TypeCache.Refresh (319ms)
+				TypeCache.ScanAssembly (288ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1230ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (965ms)
+		SetupLoadedEditorAssemblies (947ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
+			InitializePlatformSupportModulesInManaged (43ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (184ms)
-			ProcessInitializeOnLoadAttributes (615ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.19 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 7.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5293 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (384.7 KB). Loaded Objects now: 5759.
-Memory consumption went from 207.3 MB to 206.9 MB.
-Total: 5.916300 ms (FindLiveObjects: 0.854400 ms CreateObjectMapping: 0.288300 ms MarkObjects: 4.567100 ms  DeleteObjects: 0.204900 ms)
+Unloading 27 unused Assets / (385.7 KB). Loaded Objects now: 5759.
+Memory consumption went from 206.8 MB to 206.5 MB.
+Total: 6.663000 ms (FindLiveObjects: 0.515800 ms CreateObjectMapping: 0.230800 ms MarkObjects: 5.598000 ms  DeleteObjects: 0.316300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -201,50 +202,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 24341.335230 seconds.
-  path: Assets/Shaders/M_Retro16Bit_PostProcess.mat
-  artifactKey: Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/M_Retro16Bit_PostProcess.mat using Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4236aef3bf4a6d9727d83a63334b1a17') in 0.498808 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 174.973671 seconds.
-  path: Assets/Shaders/M_Retro16Bit_PostProcess.mat
-  artifactKey: Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/M_Retro16Bit_PostProcess.mat using Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Shader error in 'Retro/16Bit_PostProcess': undeclared identifier 'sampler_BlitTexture' at Assets/Shaders/Retro16BitPostProcess.shader(70) (on d3d11)
-
-Compiling Subshader: 0, Pass: Retro16BitPass, Vertex program with <no keywords>
-Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
-Shader error in 'Retro/16Bit_PostProcess': undeclared identifier 'sampler_BlitTexture' at Assets/Shaders/Retro16BitPostProcess.shader(70) (on d3d11)
-
-Compiling Subshader: 0, Pass: Retro16BitPass, Vertex program with <no keywords>
-Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
-Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
- -> (artifact id: '440c388eeb2c10474369bd07cc0c1975') in 0.116326 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.599262 seconds.
-  path: Assets/Shaders/Retro16BitPostProcess.shader
-  artifactKey: Guid(1633d2838b21b72489e6146a67c30097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Retro16BitPostProcess.shader using Guid(1633d2838b21b72489e6146a67c30097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '020cea3f2306913b60770dd143b00717') in 0.000974 seconds
+  Time since last request: 26089.376665 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '713f6524fee718ebb01eae50ee052a29') in 0.017645 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 61.268942 seconds.
-  path: Assets/Shaders/M_Retro16Bit_PostProcess.mat
-  artifactKey: Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/M_Retro16Bit_PostProcess.mat using Guid(ca60277ca05a1e14cb9d72a160f42dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ebcda9f716677a6c8033bdc4dde8a839') in 0.142660 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
+  Time since last request: 0.193168 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc2202680d0e21bea32141b9c35651dd') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 0
