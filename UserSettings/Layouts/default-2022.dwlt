@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -833,14 +833,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 0
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -8.518279, y: -3.9654043, z: 2.5690427}
+    m_Target: {x: -6.0088024, y: -0.9122094, z: 2.5690427}
     speed: 2
-    m_Value: {x: -8.518279, y: -3.9654043, z: 2.5690427}
+    m_Value: {x: -6.0088024, y: -0.9122094, z: 2.5690427}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -886,13 +886,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0002715297, y: -0.0003601507, z: 0.000105728745, w: 1}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.00027152966, y: -0.00036015068, z: 0.00010572873, w: 0.9999999}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.147848
+    m_Target: 13.948517
     speed: 2
-    m_Value: 14.147848
+    m_Value: 13.948517
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -910,8 +910,9 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.23621911, y: -0.43880734, z: 0.120735146, w: 0.85852903}
-  m_LastSceneViewOrtho: 0
+  m_LastSceneViewRotation: {x: 0.0002715297, y: -0.0003601507, z: 0.000105728745,
+    w: 1}
+  m_LastSceneViewOrtho: 1
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
@@ -959,7 +960,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 549
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1003,9 +1004,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: b8410000
       m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffff846b0000b66b0000f46b0000
+      m_ExpandedIDs: 28fbffffa86b0000b66b0000de6b00001a6c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1075,7 +1076,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/sprite/Elevator
+    - Assets/Settings
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1083,15 +1084,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/sprite/Elevator
+  - Assets/Settings
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\games unity\Arcology mini
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 80}
-    m_SelectedIDs: 2a6e0000
-    m_LastClickedID: 28202
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 266e0000
+    m_LastClickedID: 28198
     m_ExpandedIDs: 00000000926c0000946c0000966c0000986c00009a6c00009c6c00009e6c0000186e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0

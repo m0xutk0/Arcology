@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7933938996691429e13dc4f9509300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxOffset: 800
+  maxOffset: 5.85
   smoothSpeed: 2
 --- !u!114 &330585549
 MonoBehaviour:
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d480e3186d3ba34a83b64e5fc85b4b1, type: 3}
   m_Name: 
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 296648153}
         m_TargetAssemblyTypeName: DoorController, Assembly-CSharp
         m_MethodName: CloseDoor
         m_Mode: 1
@@ -1168,7 +1168,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 296648153}
         m_TargetAssemblyTypeName: DoorController, Assembly-CSharp
         m_MethodName: OpenDoor
         m_Mode: 1
