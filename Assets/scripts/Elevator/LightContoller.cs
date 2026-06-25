@@ -1,17 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class LightContoller : MonoBehaviour
 {
-    [SerializeField] private Image Elevator;
+    [SerializeField] private SpriteRenderer Elevator;
     [SerializeField] private Sprite ElevatorLightOn;
     [SerializeField] private Sprite ElevatorLightOff;
-    [SerializeField] private Image LeftDoor;
+    [SerializeField] private SpriteRenderer LeftDoor;
     [SerializeField] private Sprite LeftDoorLightOn;
     [SerializeField] private Sprite LeftDoorLightOff;
-    [SerializeField] private Image RightDoor;
+    [SerializeField] private SpriteRenderer RightDoor;
     [SerializeField] private Sprite RightDoorLightOn;
     [SerializeField] private Sprite RightDoorLightOff;
 
