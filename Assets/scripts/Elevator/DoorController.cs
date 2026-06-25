@@ -12,8 +12,17 @@ public class DoorController : MonoBehaviour
     [SerializeField] private Vector3 closedPositionRight;
     [SerializeField] private float moveDuration = 2f;
     [SerializeField] private int framesPerSecond = 30;
+    [SerializeField] private AudioClip OpenDoorSound;
+    [SerializeField] private AudioClip CloseDoorSound;
+    private AudioSource audioSource;
 
     private Coroutine moveCoroutine;
+
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     [ContextMenu("Open Door")]
     public void OpenDoor()
@@ -21,6 +30,7 @@ public class DoorController : MonoBehaviour
         if (moveCoroutine != null)
             StopCoroutine(moveCoroutine);
         moveCoroutine = StartCoroutine(MoveDoors(openPositionLeft, openPositionRight));
+        audioSource.PlayOneShot(OpenDoorSound);
     }
 
     [ContextMenu("Close Door")]
@@ -29,6 +39,7 @@ public class DoorController : MonoBehaviour
         if (moveCoroutine != null)
             StopCoroutine(moveCoroutine);
         moveCoroutine = StartCoroutine(MoveDoors(closedPositionLeft, closedPositionRight));
+        audioSource.PlayOneShot(CloseDoorSound);
     }
 
     private IEnumerator MoveDoors(Vector3 targetLeft, Vector3 targetRight)

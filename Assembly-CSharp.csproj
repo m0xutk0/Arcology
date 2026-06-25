@@ -66,12 +66,13 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\Elevator\DoorController.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
+    <Compile Include="Assets\scripts\Button\OpenClosePad.cs" />
     <Compile Include="Assets\scripts\Elevator\LightContoller.cs" />
     <Compile Include="Assets\scripts\CameraScroll.cs" />
     <Compile Include="Assets\scripts\RetroCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Retro16BitPostProcess.shader" />
+    <None Include="Assets\Shaders\Retro16BitPostProcess.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
