@@ -910,9 +910,8 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.0002715297, y: -0.0003601507, z: 0.000105728745,
-    w: 1}
-  m_LastSceneViewOrtho: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
@@ -1004,9 +1003,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b8410000
+      m_SelectedIDs: 6c020000
       m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffffa86b0000b66b0000de6b00001a6c0000
+      m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1091,8 +1090,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 266e0000
-    m_LastClickedID: 28198
+    m_SelectedIDs: 1a6e0000
+    m_LastClickedID: 28186
     m_ExpandedIDs: 00000000926c0000946c0000966c0000986c00009a6c00009c6c00009e6c0000186e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
