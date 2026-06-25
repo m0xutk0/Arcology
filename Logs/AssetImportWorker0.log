@@ -2808,3 +2808,5 @@ AssetImportParameters requested are different than current active one (requested
 [usbmuxd] Attached: 7 00008030-00110D611A83C02E
 [usbmuxd] Detached: 7 00008030-00110D611A83C02E
 [usbmuxd] Attached: 8 00008030-00110D611A83C02E
+[usbmuxd] Detached: 8 00008030-00110D611A83C02E
+[usbmuxd] Attached: 9 00008030-00110D611A83C02E
