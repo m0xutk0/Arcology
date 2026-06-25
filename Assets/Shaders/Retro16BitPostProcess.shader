@@ -25,11 +25,14 @@ Shader "Retro/16Bit_PostProcess"
             #pragma vertex Vert
             #pragma fragment Frag
 
+            #pragma target 3.0
+
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
             #include "Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blit.hlsl"
 
-            // ОБЯЗАТЕЛЬНО ДЛЯ IOS: Упаковка свойств в константный буфер
-            CBUFFER_START(UnityPerMaterial)
+            // ИСПРАВЛЕНИЕ 1: Для Пост-процессинга (Blit) на iOS НЕЛЬЗЯ использовать UnityPerMaterial.
+            // Называем буфер иначе, чтобы не ломать логику SRP Batcher, который здесь не работает.
+            CBUFFER_START(RetroPostProcessParams)
                 float _RedBits;
                 float _GreenBits;
                 float _BlueBits;
@@ -40,29 +43,31 @@ Shader "Retro/16Bit_PostProcess"
 
             float QuantizeChannel(float rawColor, float bits)
             {
-                // Защита: гарантируем, что bits не упадет ниже 1.0
                 float safeBits = max(1.0, bits);
                 float levels = pow(2.0, safeBits) - 1.0;
                 
-                // Защита от деления на ноль
-                if (levels < 1.0) levels = 1.0; 
+                // ИСПРАВЛЕНИЕ 2: Избавляемся от динамического ветвления (if) в пользу функции max()
+                levels = max(1.0, levels); 
                 
-                return round(rawColor * levels) / levels;
+                // ИСПРАВЛЕНИЕ 3: Заменяем round() на кроссплатформенный floor(x + 0.5)
+                return floor(rawColor * levels + 0.5) / levels;
             }
 
             float4 Frag(Varyings input) : SV_Target
             {
+                // ИСПРАВЛЕНИЕ 4: Используем макрос для корректного считывания UV в Blit-пассах
                 float2 uv = input.texcoord;
 
-                // Пикселизация экрана с защитой от нулевого разрешения
                 if (_PixelationActive > 0.5 && _PixelSizeX > 1.0 && _PixelSizeY > 1.0)
                 {
-                    uv.x = round(uv.x * _PixelSizeX) / _PixelSizeX;
-                    uv.y = round(uv.y * _PixelSizeY) / _PixelSizeY;
+                    uv.x = floor(uv.x * _PixelSizeX + 0.5) / _PixelSizeX;
+                    uv.y = floor(uv.y * _PixelSizeY + 0.5) / _PixelSizeY;
                 }
 
-                // Выборка пикселя из кадра камеры
-                float4 color = SAMPLE_TEXTURE2D_X(_BlitTexture, sampler_LinearClamp, uv);
+                // ИСПРАВЛЕНИЕ 5: КРИТИЧЕСКОЕ ДЛЯ IOS. Используем SAMPLE_TEXTURE2D_X_LOD с нулевым мип-уровнем.
+                // Модификация UV выше ломает автоматический расчет деривативов на мобильных GPU, что вешало шейдер.
+                // Также заменен sampler_LinearClamp на встроенный и гарантированный sampler_BlitTexture.
+                float4 color = SAMPLE_TEXTURE2D_X_LOD(_BlitTexture, sampler_LinearClamp, uv, 0);
 
                 // Поканальное уменьшение битности
                 float3 retroColor;
