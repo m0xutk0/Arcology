@@ -152,8 +152,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 159.4, y: 177.87, z: 177.87}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.99999994, y: 1.115872, z: 1.115872}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 690924860}
   - {fileID: 1974838678}
@@ -180,8 +180,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
-  MinDistance: 876
-  MaxDistance: 1618.2
+  MinDistance: 5
+  MaxDistance: 10
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -360,10 +360,10 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 2000
+  far clip plane: 1000
   field of view: 87.948135
   orthographic: 1
-  orthographic size: 960
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -388,7 +388,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -990}
+  m_LocalPosition: {x: 0, y: 0, z: -3.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -498,7 +498,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 186.67, y: 186.67, z: 186.67}
+  m_LocalScale: {x: 3.1299999, y: 3.1299999, z: 3.1299999}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1704785189}
@@ -1502,7 +1502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1704785189
 Transform:
   m_ObjectHideFlags: 0
@@ -1736,8 +1736,8 @@ AudioReverbZone:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905626735}
   m_Enabled: 1
-  m_MinDistance: 1104
-  m_MaxDistance: 1595
+  m_MinDistance: 5
+  m_MaxDistance: 10
   m_ReverbPreset: 4
   m_Room: -1000
   m_RoomHF: -1200
@@ -1794,7 +1794,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 461.2, y: 461.2, z: 461.2}
+  m_LocalScale: {x: 3.1299999, y: 3.1299999, z: 3.1299999}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1704785189}
