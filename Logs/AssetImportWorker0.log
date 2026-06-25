@@ -2806,3 +2806,5 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4e6765563668cbd3bf23f2f12aaebd4b -> e30d209224431e7b101dfc0da4906b07
 [usbmuxd] Attached: 7 00008030-00110D611A83C02E
+[usbmuxd] Detached: 7 00008030-00110D611A83C02E
+[usbmuxd] Attached: 8 00008030-00110D611A83C02E
