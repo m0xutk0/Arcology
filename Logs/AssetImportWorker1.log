@@ -284,3 +284,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Attached: 1 00008030-00110D611A83C02E
+========================================================================
+Received Import Request.
+  Time since last request: 2288.732677 seconds.
+  path: Assets/sprite/Elevator_LeftDoor_1.png
+  artifactKey: Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_LeftDoor_1.png using Guid(8715532d68f23f34e80e87c920f90954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c70cebbb4fe36c381c0786b54cb921c3') in 0.238626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprite/LightOff_Elevator_LeftDoor_1.png
+  artifactKey: Guid(a46cc151460179a4fa4fc00f68c50da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_LeftDoor_1.png using Guid(a46cc151460179a4fa4fc00f68c50da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1cbab55c881b3173015d5ba74b78aee3') in 0.047383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.825518 seconds.
+  path: Assets/sprite/Elevator_RightDoor_1.png
+  artifactKey: Guid(c69aac1a94297104fa05ec43e5bd3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_RightDoor_1.png using Guid(c69aac1a94297104fa05ec43e5bd3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '189d1c832671bdb94e688034d7e7b8e0') in 0.034906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprite/LightOff_Elevator_2.png
+  artifactKey: Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_2.png using Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0cdd483e40bb153caec105b94d0c7483') in 0.026070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.564401 seconds.
+  path: Assets/sprite/Elevator_RightDoor_1.png
+  artifactKey: Guid(c69aac1a94297104fa05ec43e5bd3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/Elevator_RightDoor_1.png using Guid(c69aac1a94297104fa05ec43e5bd3192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ce1d22c9a23ed539edd152c7bda1279') in 0.049237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprite/LightOff_Elevator_2.png
+  artifactKey: Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite/LightOff_Elevator_2.png using Guid(3c93f13e065ddc94c89a9efc8cee92b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2d4103feaf221f3eebd70d3bb67c17d') in 0.081332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
