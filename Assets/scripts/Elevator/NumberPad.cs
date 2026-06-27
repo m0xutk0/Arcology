@@ -10,6 +10,9 @@ public class NumberPad : MonoBehaviour
 
     [Header("Настройки")]
     [SerializeField] private int maxDigits = 9; // Максимальная длина числа
+    [SerializeField] private AudioClip ButtonClickSound;
+
+    private AudioSource audioSource;
 
     private string currentInput = "";
 
@@ -19,6 +22,7 @@ public class NumberPad : MonoBehaviour
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         UpdateDisplay();
     }
 
@@ -34,6 +38,9 @@ public class NumberPad : MonoBehaviour
         if (currentInput == "0" && digit != 0) currentInput = "";
 
         currentInput += digit.ToString();
+
+        audioSource.PlayOneShot(ButtonClickSound);
+
         UpdateDisplay();
     }
 
@@ -45,6 +52,7 @@ public class NumberPad : MonoBehaviour
         if (currentInput.Length > 0)
         {
             currentInput = currentInput.Substring(0, currentInput.Length - 1);
+            audioSource.PlayOneShot(ButtonClickSound);
             UpdateDisplay();
         }
     }
@@ -67,6 +75,7 @@ public class NumberPad : MonoBehaviour
             // Отправляем число всем, кто подписан на событие
             OnNumberSubmitted?.Invoke(finalNumber);
 
+            audioSource.PlayOneShot(ButtonClickSound);
             FloorSlider.SliderValue();
             // Опционально: очищаем поле после ввода
             Clear();
