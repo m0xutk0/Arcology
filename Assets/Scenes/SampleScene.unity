@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayText: {fileID: 775835648}
+  FloorSlider: {fileID: 140483615}
   maxDigits: 14
 --- !u!1 &69028250
 GameObject:
@@ -371,6 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 140483613}
   - component: {fileID: 140483614}
+  - component: {fileID: 140483615}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -443,7 +445,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1173010628}
   m_FillRect: {fileID: 1413789830}
   m_HandleRect: {fileID: 1173010627}
-  m_Direction: 3
+  m_Direction: 2
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
@@ -451,6 +453,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &140483615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140483612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b707f847ef5b4c448ca66ed17462633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elevatorController: {fileID: 296648154}
+  slider: {fileID: 140483614}
 --- !u!1 &256068049
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,12 +788,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ElevatorIsMoving: 0
-  ElevatorSpeed: 1
+  ElevatorSpeed: 0.3
   ElevatorFuel: 100
-  fuelConsumptionRate: 1
+  fuelConsumptionRate: 0.3
   DoorController: {fileID: 296648153}
+  FloorSlider: {fileID: 140483615}
   CurrentFloor: 0
   TargetFloor: 0
+  preciseCurrentFloor: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25, y: 0}
   m_AnchorMax: {x: 0.75, y: 1}
-  m_AnchoredPosition: {x: 0, y: 5}
+  m_AnchoredPosition: {x: 0, y: -5}
   m_SizeDelta: {x: 0, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &652975178

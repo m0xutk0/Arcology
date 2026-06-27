@@ -6,6 +6,7 @@ public class NumberPad : MonoBehaviour
 {
     [Header("UI Элементы")]
     [SerializeField] private Text displayText; // Ссылка на компонент Text для отображения
+    [SerializeField] private FloorSlider FloorSlider; // Ссылка на FloorSlider для обновления слайдера
 
     [Header("Настройки")]
     [SerializeField] private int maxDigits = 9; // Максимальная длина числа
@@ -66,6 +67,7 @@ public class NumberPad : MonoBehaviour
             // Отправляем число всем, кто подписан на событие
             OnNumberSubmitted?.Invoke(finalNumber);
 
+            FloorSlider.SliderValue();
             // Опционально: очищаем поле после ввода
             Clear();
         }

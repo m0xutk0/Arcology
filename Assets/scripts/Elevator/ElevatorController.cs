@@ -9,14 +9,15 @@ public class ElevatorController : MonoBehaviour
     public float ElevatorSpeed; // Сколько этажей лифт преодолевает за 1 секунду
     public float ElevatorFuel;
     [SerializeField] private float fuelConsumptionRate = 1f; // Расход топлива в секунду
-    [SerializeField] private DoorController DoorController; // Ссылка на скрипт управления дверями
+    [SerializeField] private DoorController DoorController;
+    [SerializeField] private FloorSlider FloorSlider;
 
     [Header("Elevator floor settings")]
     public int CurrentFloor;
     public int TargetFloor;
 
     // Внутренние переменные для плавной симуляции
-    private float preciseCurrentFloor; 
+    [HideInInspector] public float preciseCurrentFloor; 
     private bool isPaused; 
 
     void OnEnable()
