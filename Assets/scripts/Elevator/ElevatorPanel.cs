@@ -6,6 +6,7 @@ public class ElevatorPanel : MonoBehaviour
 {
     public bool IsOpen;
     [SerializeField] private GameObject ElevatorPanelCanvas;
+    [SerializeField] private CameraScroll CameraScroll;
     void Start()
     {
         
@@ -36,6 +37,7 @@ public class ElevatorPanel : MonoBehaviour
                         {
                             IsOpen = true;
                             ElevatorPanelCanvas.SetActive(true);
+                            CameraScroll.enabled = false;
                         }
                     }
                 }
@@ -46,5 +48,6 @@ public class ElevatorPanel : MonoBehaviour
     {
         IsOpen = false;
         ElevatorPanelCanvas.SetActive(false);
+        CameraScroll.enabled = true;
     }
 }
