@@ -37,9 +37,9 @@ public class NumberPad : MonoBehaviour
         if (currentInput == "0" && digit == 0) return;
         if (currentInput == "0" && digit != 0) currentInput = "";
 
-        currentInput += digit.ToString();
-
         audioSource.PlayOneShot(ButtonClickSound);
+
+        currentInput += digit.ToString();
 
         UpdateDisplay();
     }

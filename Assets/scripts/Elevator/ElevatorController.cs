@@ -11,10 +11,15 @@ public class ElevatorController : MonoBehaviour
     [SerializeField] private float fuelConsumptionRate = 1f; // Расход топлива в секунду
     [SerializeField] private DoorController DoorController;
     [SerializeField] private FloorSlider FloorSlider;
+    private AudioSource ElevatorAudioSource; // Аудио источник для звука лифта
+    [SerializeField] private AudioClip ElevatorMoveClip; // Звук движения лифта
 
     [Header("Elevator floor settings")]
     public int CurrentFloor;
     public int TargetFloor;
+
+    [Header("Event Manager Reference")]
+    [SerializeField] private EventManager EventManager;
 
     // Внутренние переменные для плавной симуляции
     [HideInInspector] public float preciseCurrentFloor; 
@@ -34,6 +39,7 @@ public class ElevatorController : MonoBehaviour
 
     void Start()
     {
+        ElevatorAudioSource = GetComponent<AudioSource>();
         // Синхронизируем точный этаж со стартовым
         preciseCurrentFloor = CurrentFloor;
     }
@@ -63,17 +69,22 @@ public class ElevatorController : MonoBehaviour
 
         // Сразу начинаем движение
         ElevatorIsMoving = true;
+        ElevatorAudioSource.PlayOneShot(ElevatorMoveClip);
+        EventManager.isElevatorMoving = true; // Сообщаем менеджеру ивентов, что лифт в движении
         isPaused = false;
     }
 
     // Логика перемещения и расхода топлива
     private void SimulateMovement()
     {
+
         // Проверка топлива
         if (ElevatorFuel <= 0)
         {
             ElevatorFuel = 0;
             ElevatorIsMoving = false;
+            ElevatorAudioSource.Stop();
+            EventManager.isElevatorMoving = false; // Сообщаем менеджеру ивентов, что лифт остановился
             Debug.LogError("Топливо закончилось! Лифт застрял.");
             return;
         }
@@ -91,6 +102,8 @@ public class ElevatorController : MonoBehaviour
         if (Mathf.Approximately(preciseCurrentFloor, TargetFloor))
         {
             ElevatorIsMoving = false;
+            EventManager.isElevatorMoving = false; // Сообщаем менеджеру ивентов, что лифт остановился
+            ElevatorAudioSource.Stop();
             DoorController.OpenDoor(); // Вызываем метод открытия дверей
         }
     }

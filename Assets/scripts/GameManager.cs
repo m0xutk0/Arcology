@@ -7,10 +7,22 @@ using UnityEngine.iOS; // Подключаем пространство имён
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
     void Awake()
     {
         // Отключаем ограничение и заставляем игру выдавать плавные 60 кадров
         Application.targetFrameRate = 60;
+
+        if (Instance == null)
+        {
+            Instance = this;
+            // По желанию, если менеджер не должен уничтожаться при смене сцен:
+            // DontDestroyOnLoad(gameObject); 
+        }
+        else
+        {
+            Destroy(gameObject); // Уничтожаем дубликаты, если они появятся
+        }
     }
 
     // Start is called before the first frame update

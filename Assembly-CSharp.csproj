@@ -67,12 +67,15 @@
     <Compile Include="Assets\scripts\Pad\FloorSlider.cs" />
     <Compile Include="Assets\scripts\Elevator\DoorController.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
+    <Compile Include="Assets\scripts\Event\AllEvents\CacheEvent.cs" />
     <Compile Include="Assets\scripts\Button\OpenClosePad.cs" />
     <Compile Include="Assets\scripts\Elevator\LightContoller.cs" />
     <Compile Include="Assets\scripts\Elevator\ElevatorController.cs" />
     <Compile Include="Assets\scripts\Elevator\NumberPad.cs" />
     <Compile Include="Assets\scripts\Elevator\ElevatorPanel.cs" />
+    <Compile Include="Assets\scripts\Event\EventManager.cs" />
     <Compile Include="Assets\scripts\CameraScroll.cs" />
+    <Compile Include="Assets\scripts\Event\BaseEvent.cs" />
     <Compile Include="Assets\scripts\RetroCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
